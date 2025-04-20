@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudMedicCharge"
-		"xpos"			"c45"		[$WIN32]
-		"ypos"			"c20"	[$WIN32]
+		"xpos"			"c-20"		[$WIN32]
+		"ypos"			"c-30"	[$WIN32]
 		"zpos"			"0"
 		"wide"			"450"
 		"tall"			"120"
@@ -33,12 +33,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"75"
+		"xpos"			"18"
 		"ypos"			"28"
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"30"
-		"autoResize"	"2"
+		"autoResize"	"5"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
@@ -78,8 +78,8 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"30"
-		"ypos"			"38"
+		"xpos"			"65"
+		"ypos"			"85"
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"10"				
