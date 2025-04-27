@@ -2,12 +2,15 @@
 {	
 	// player health data
 	"HudPlayerHealth"
-	//bloque que mueve toda los items relacionados con la vida
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-200"		[$WIN32]
-		"ypos"			"c"	[$WIN32]
+		"xpos"			"0"		[$WIN32]
+		"xpos_minmode"	"-5"		[$WIN32]
+		"ypos"			"r120"	[$WIN32]
+		"ypos_minmode"	"r88"	[$WIN32]
+		"xpos"			"32"	[$X360]
+		"ypos"			"r144"	[$X360]
 		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"120"
@@ -18,11 +21,11 @@
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
 	"PlayerStatusHealthImage"
-	//cruz que va bajando dependiendo de la vida
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"			"75"
+		"xpos_minmode"	"60"
 		"ypos"			"35"
 		"zpos"			"4"
 		"wide"			"51"
@@ -32,7 +35,6 @@
 		"scaleImage"	"1"	
 	}		
 	"PlayerStatusHealthImageBG"
-	//parte de atrás da cruz, parte negra que enche todo
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
@@ -69,25 +71,23 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
-	
-	
 	"PlayerStatusHealthValue"
-	//numeros de vida
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"76"
 		"xpos_minmode"	"61"
 		"ypos"			"52"	[$WIN32]
+		"ypos"			"55"	[$X360]
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"%Health%" //texto dependente da vida
+		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"HudClassHealth"
-		"fgcolor"		"StoreGreen"
+		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusMaxHealthValue"
 	{

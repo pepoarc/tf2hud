@@ -2,8 +2,6 @@
 {
 	"CHudAccountPanel"
 	{
-		"xpos"			"c-45"		[$WIN32]
-		"ypos"			"c-100"	[$WIN32]
 		"delta_item_x"			"28"
 		"delta_item_start_y"	"90"
 		"delta_item_end_y"		"70"
@@ -22,8 +20,8 @@
 		"zpos"			"0"
 		"wide"			"84"
 		"tall"			"42"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_red"

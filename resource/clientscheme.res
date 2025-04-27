@@ -3035,47 +3035,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
-		//estas son las fuentes custom del HUD
-		
-		"PixelOnda32"
-		{
-			"1"
-			{
-				"name"		"Pixelout Personal Use Only Reg"
-				"tall"		"32"
-				"weight"	"400"
-				"antialias" "1"
-			}
-		}
-		
-		PixelOnda16
-		{
-			"1"
-			{
-				"name"		"Pixelout Personal Use Only Reg"
-				"tall"		"16"
-				"weight"	"400"
-				"antialias" "1"
-			}
-		}
-		
-		PixelOnda12
-		{
-			"1"
-			{
-				"name"		"Pixelout Personal Use Only Reg"
-				"tall"		"12"
-				"weight"	"400"
-				"antialias" "1"
-			}
-		}
-		
 	}
-	
-	
-	
-	
 
 	//
 	//////////////////// BORDERS //////////////////////////////
@@ -5887,7 +5847,6 @@ Scheme
 				"range" "0x0000 0x007E"
 			}
 		}
-
 		"10"		"resource/linux_fonts/DejaVuSans.ttf"
 		"11"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
 		"12"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
@@ -5896,7 +5855,5 @@ Scheme
 		"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
 		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
 		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
-		"18"
-		
 	}
 }
