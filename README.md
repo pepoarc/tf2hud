@@ -8,7 +8,7 @@ using them for a while i forgot how stilized
 and fitting for the game the vanilla is (how 
 come) so i decided to do it myself.
 
-//Description
+//Description:
 This hud tries to replicate the vanilla feel
 of the style of the classic tf2 Hud and join
 it with the more useful and easy to look at
