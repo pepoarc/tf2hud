@@ -6,7 +6,7 @@ look to the furthest corners of my screen, I
 tried the usual huds from gamebanana. After 
 using them for a while i forgot how stilized
 and fitting for the game the vanilla is (how 
-come) so i decides to do it myself.
+come) so i decided to do it myself.
 
 //Description
 This hud tries to replicate the vanilla feel
