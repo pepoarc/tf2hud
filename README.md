@@ -17,4 +17,4 @@ This is a begginers project, so its my first
 hud adjusted for me and my gameplay. If 
 something is missing, like mvm, streaks or 
 something like that is because i dont care 
-enough to touch it or i dont own it.
+enough to touch it or i dont own it. :3
