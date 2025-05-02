@@ -1,5 +1,6 @@
 "Resource/UI/HudItemEffectMeter.res"
 {
+	//sapper
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
