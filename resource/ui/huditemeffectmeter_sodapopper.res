@@ -1,12 +1,13 @@
-,"Resource/UI/HudItemEffectMeter.res"
+"Resource/UI/HudItemEffectMeter.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
+		"ControlName"	"EditablePanel"
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c62"	[$WIN32]
-		"ypos"			"c60"	[$WIN32]
+		"ypos"			"c53"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -23,7 +24,7 @@
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz1_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_horiz1_red"
@@ -44,7 +45,7 @@
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"0"
-		"enabled"				"0"
+		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
@@ -56,15 +57,12 @@
 	"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ContinuousProgressBar"
+		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"47"
+		"xpos"					"20"
 		"ypos"					"23"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
 		"zpos"					"2"
-		"wide"					"30"
-		"wide_minmode"			"50"
+		"wide"					"70"
 		"tall"					"5"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
